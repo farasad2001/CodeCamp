@@ -1,0 +1,30 @@
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="promodoTimer">
+          <button type="button" class="btn btn-warning btn-circle btn-lg" onclick="promodoTimer.increase();"><i class="	glyphicon glyphicon-plus"></i></button>
+          <button type="button" class="btn btn-danger btn-circle btn-lg" onclick="promodoTimer. decrease();"><i class="glyphicon glyphicon-minus"></i></button>
+          <div class="display-remain-time" id="count" contenteditable="true">25</div>
+          <button type="button" class="btn btn-danger btn-circle btn-lg" onclick="promodoTimer.start();"><i class="glyphicon glyphicon-play"></i></button>
+          <button type="button" class="btn btn-danger btn-circle btn-lg" onclick="promodoTimer.pause();"><i class="glyphicon glyphicon-pause"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-2"></div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="breakTimer">
+          <button type="button" class="btn btn-warning btn-circle" onclick="plus()"><i class="glyphicon glyphicon-plus"></i></button>
+          <button type="button" class="btn btn-danger btn-circle" onclick="minus()"><i class="glyphicon glyphicon-minus"></i></button>
+          <div class="display-remain-time" id="countB" contenteditable="true">5</div>
+          <button type="button" class="btn btn-danger btn-circle" onclick="clock(); document.getElementById('countB').innerHTML='5';"><i class="glyphicon glyphicon-play"></i></button>
+          <button type="button" class="btn btn-danger btn-circle" onclick="clearInterval(myTimer);"><i class="glyphicon glyphicon-pause"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Fariba</title>
+  <div class="wrapper">
+  <div class="pie spinner"></div>
+  <div class="pie filler"></div>
+  <div class="mask"></div>
+</div><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="promodoTimer">
+          <button type="button" class="btn btn-warning btn-circle btn-lg" onclick="promodoTimer.increase();"><i class="	glyphicon glyphicon-plus"></i></button>
+          <button type="button" class="btn btn-danger btn-circle btn-lg" onclick="promodoTimer. decrease();"><i class="glyphicon glyphicon-minus"></i></button>
+          <div class="display-remain-time" id="count" contenteditable="true">25</div>
+          <button type="button" class="btn btn-danger btn-circle btn-lg" onclick="promodoTimer.start();"><i class="glyphicon glyphicon-play"></i></button>
+          <button type="button" class="btn btn-danger btn-circle btn-lg" onclick="promodoTimer.pause();"><i class="glyphicon glyphicon-pause"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-2"></div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="breakTimer">
+          <button type="button" class="btn btn-warning btn-circle" onclick="plus()"><i class="glyphicon glyphicon-plus"></i></button>
+          <button type="button" class="btn btn-danger btn-circle" onclick="minus()"><i class="glyphicon glyphicon-minus"></i></button>
+          <div class="display-remain-time" id="countB" contenteditable="true">5</div>
+          <button type="button" class="btn btn-danger btn-circle" onclick="clock(); document.getElementById('countB').innerHTML='5';"><i class="glyphicon glyphicon-play"></i></button>
+          <button type="button" class="btn btn-danger btn-circle" onclick="clearInterval(myTimer);"><i class="glyphicon glyphicon-pause"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

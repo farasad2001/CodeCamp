@@ -1,0 +1,64 @@
+.container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://cdn.wallpapersafari.com/46/78/QUzmeD.jpg)
+}
+.calc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 245px;
+  background-color: #dddddd;
+  border: 2px solid #cccccc;
+  padding: 0px 10px 20px 10px;
+    box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 10px 0 0 #adadad, 0 10px 0 1px rgba(0, 0, 0, 0.4),
+    0 10px 10px 1px rgba(0, 0, 0, 0.5);
+ 
+}
+
+.txt {
+  font-size: 30px;
+  height: 30px;
+  position: relative;
+  margin-top: 10px;
+  width: 100%;
+  text-align: right;
+  border: none;
+  padding: 10px;
+  box-shadow: inset -3px 3px 2px 0px #ccc, inset 0px 0px 0px 1px #ccc;
+}
+
+input[type="button"] {
+  font-size: 20px;
+  width: 50px;
+  height: 45px;
+  border-radius: 6px;
+  transition: all 0.08s linear;
+  position: relative;
+  outline: medium none;
+  -moz-outline-style: none;
+  border: 0px;
+  margin-top: 15px;
+  top: 0;
+  box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 5px 0 0 #adadad, 0 5px 0 1px rgba(0, 0, 0, 0.4),
+    0 8px 5px 1px rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+input[type="button"]:focus {
+  outline: medium none;
+  -moz-outline-style: none;
+}
+
+input[type="button"]:active {
+  top: 4px;
+}

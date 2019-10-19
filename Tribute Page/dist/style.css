@@ -1,0 +1,19 @@
+h1 {
+    font-family: Lobster, Monospace;
+  color:#338FA3;
+  }
+h2{font-family: Lobster, Monospace;
+color:#61910D}
+.bg{
+  background-color:#FFFF66;
+  background-position: center;
+}
+.hg{background-color:#E68A1A;
+  background-position: center;  
+}
+.center {
+    position: absolute;
+    left: 30%;
+    top: 0;
+    width: 100%;
+}

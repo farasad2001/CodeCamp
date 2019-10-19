@@ -1,0 +1,35 @@
+html {
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.blue-bg {
+background: url(https://wallpaperscraft.com/image/background_drops_light_circles_blue_83428_1920x1080.jpg) center center fixed;}
+
+h1 { 
+    display: block;
+    font-size: 4em;
+    color:orange;
+    font-weight: bold;
+    text-align: center;
+}
+h2{
+   display: block;
+    font-size: 3em;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3{
+    display: block;
+    font-size: 2em;
+    color:white;
+    text-align: center;
+}
+
+div {
+      text-align: center;
+ }
